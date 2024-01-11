@@ -38,5 +38,6 @@ exports.handler = async (event) => {
   }
 };
 
+//Had to use this exports to make the lib work. Maybe a bug?
 exports.language = "en-US";
 exports.user = project;
