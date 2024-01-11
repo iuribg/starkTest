@@ -1,0 +1,22 @@
+{
+  "name": "stark-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuribg/starkTest.git#main"
+  },
+  "author": "Iuri Benatti Godinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuribg/starkTest/issues"
+  },
+  "homepage": "https://github.com/iuribg/starkTest/tree/main#readme",
+  "dependencies": {
+    "starkbank": "^2.23.0"
+  }
+}
