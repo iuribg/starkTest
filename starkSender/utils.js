@@ -33,7 +33,7 @@ function generateInvoiceArray() {
     for (let i = 0; i < randomNumber; i++) {
       const invoiceObject = {
         amount: Math.floor(Math.random() * 10000) + 10000,
-        name: `Random person ${Date.now()}`,
+        name: `Random person ${Date.now()+i}`,
         taxId: generateCpf()
       };
       invoiceArray.push(invoiceObject);
@@ -43,3 +43,4 @@ function generateInvoiceArray() {
 }
 
 module.exports = { generateInvoiceArray };
+console.log(generateInvoiceArray());
